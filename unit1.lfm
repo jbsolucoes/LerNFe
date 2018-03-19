@@ -1,0 +1,43 @@
+object Form1: TForm1
+  Left = 0
+  Height = 698
+  Top = 0
+  Width = 883
+  ActiveControl = Button1
+  Caption = 'Ler NFe'
+  ClientHeight = 698
+  ClientWidth = 883
+  DesignTimePPI = 120
+  Visible = False
+  object Button1: TButton
+    Left = 784
+    Height = 31
+    Top = 8
+    Width = 94
+    Caption = 'Ler NFe'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Memo_Retorno: TMemo
+    Left = 8
+    Height = 648
+    Top = 40
+    Width = 872
+    ScrollBars = ssAutoBoth
+    TabOrder = 1
+  end
+  object FileNameEdit1: TFileNameEdit
+    Left = 8
+    Height = 28
+    Top = 8
+    Width = 768
+    FileName = '35121152311347000906550010000778701000499104.xml'
+    FilterIndex = 0
+    HideDirectories = False
+    ButtonWidth = 29
+    NumGlyphs = 1
+    MaxLength = 0
+    TabOrder = 2
+    Text = '35121152311347000906550010000778701000499104.xml'
+  end
+end
